@@ -16,9 +16,8 @@ export default {
 </script>
 
 <template>
-  <Navbar />
-  <Sidebar />
-  <HeroPage />
+ 
+ <router-view/>
 
 </template>
 

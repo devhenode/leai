@@ -1,5 +1,21 @@
 import { createApp } from 'vue'
-import './output.css'
+import { createWebHistory, createRouter } from 'vue-router'
 import App from './App.vue'
+import Sidebar from './components/Sidebar.vue'
+import Navbar from './components/Navbar.vue'
+import HeroPage from './components/HeroPage.vue'
 
-createApp(App).mount('#app')
+const routes = [
+    { path: '/', component: HeroPage },
+    { path: '/sidebar', component: Sidebar },
+    { path: '/navbar', component: Navbar }
+]
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes
+})
+
+createApp(App)
+    .use(router)
+    .mount('#app')

@@ -23,6 +23,7 @@
       <div class="h-full px-1 overflow-y-auto" id="side-ref">
           <ul class="space-y-2 pt-5 font-medium">
             <li>
+              
               <a href="#" class="flex items-center p-2 rounded-lg hover:bg-gray-100 group">
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 width="460.298px" height="460.297px" stroke="currentColor" fill="#d3d3d3" viewBox="0 0 460.298 460.297" xml:space="preserve" class="text-white w-5 h-5">
@@ -212,7 +213,5 @@
     width: 35px
   }
 
-  #svg-ic {
-    margin-left: 950px;
-  }
+  
 </style>
